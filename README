@@ -20,13 +20,20 @@ Dependencies in order of what you're least likely to already have:
 - sh (meh....)
 - mv
 - cp
+- file
+
+Optional Dependencies
+=====================
+- lynx
 
 Installation
 ============
 
-Move wikish.config to ~/.config/, edit it and then set up wiki.sh
-somewhere. It creates a few trash-files so you may want to keep it in a
-directory.
+Set up wiki.sh somewhere, run it once, and a config file is created
+automatically in ~/.config/wikish.conf. Edit it, and then rerun wiki.sh.
+
+Note, the script creates a few trash-files so you may want to keep
+it in a directory.
 
 Symlinks understood: wikiedit, wikiget, wikipost:
 
@@ -63,7 +70,6 @@ then post it.
 Feedback
 ========
 
-Comments/suggestions go to: Kristian Lyngstol kristian@bohemians.org
+Comments/suggestions go to: Vegard Haugland <vegard@haugland.at>
 
-Code at: http://github.com/KristianLyng/wikish , including simple issues if
-you prefer that over mail.
+Code at: http://github.com/v3gard/wikish
